@@ -1,47 +1,13 @@
-# Studio Project  Starter Code
-Starter code for the Studio Project. This is a simple layout connected to a GitHub Classroom that serves as the basis for implementing the studio project. 
+# COVID TRACKER
+This is a studio project done as a part of my Programming Studio 1 course assignment in a group of 2. 
 
-This example program provides:
+# Project Description
+This website contains information to prevent the spread of COVID-19 as well as potential symptopms. It contains the total number of cases and deaths worldwide in the time period January 2020 to April 2021. The choropleth map helps visualise the data, which can also be read from the tables presented. This website allows you to  select a specific country and find the COVID infections or deaths in neighbouring countries within your specified radius.
 
-* A Java class for the Index page (index.html)
-* 6x Java classes for 6 pages. Additional pages can be added by adding additional classes
-* JDBCConnection Java class, that uses the Movies Database which is the consistent database example that is used in the project workshop code.
-    * You will need to replace the Movies database with the database for the data set for your chosen social challenge
-    * You will need to update the DATABASE string in JDBCConnection for the new database name
-    * You should replace the example method in JDBCConnection with the required SQL Queries to support your web page
-* App Java class to configure and setup the Javalin web server. 
-    * You will need to uncomment the appropriate lines in ```configureRoutes()``` for any webpages that you need to power through a web form.
-* Examples CSS (common.css) file in the resources directory
-* Example image (logo.png) file in the resources directory with where to locate any images you want on your website
-
-Classes backing Web pages:
-```bash
-├── Index                        - Homepages/index page. Provides a directory to all other pages
-├── Page1                        - Sets of 6 other Java class files backing 6 other pages.
-├── ...
-└── Page6                        
-```
-
-Other Classes:
-```bash
-├── App                          - Main Application entrypoint for Javalin
-└── JDBCConnection               - Example JDBC Connection class based on Studio Project Workshop content
-```
-
-Folders:
-```bash
-├── /src/main                    - Location of all files as required by MAVEN build
-│         ├── java               - Java Source location
-│         │    └── app           - package location for all Java files
-│         └── resources          - Web resources (html templates / style sheets)
-│               ├── css          - CSS Style-sheets. Base example style sheet (common.css) provided
-│               └── images       - Image files. Base example image (RMIT Logo) provided
-│ 
-├── /target                      - build directory (DO NOT MODIFY)
-├── /database                    - The folder to store sqlite database files (*.db files)
-├── pom.xml                      - Configure Build (DO NOT MODIFY)
-└── README.md                    - This file ;)
-```
+# Technologies used:
+* Front-end: HTML, CSS, JavaScript
+* Back-end: Javalin, Java
+* Database: SQL 
 
 Current Libraries
 * org.xerial.sqlite-jdbc         - SQLite JDBC library
@@ -65,6 +31,8 @@ Libraries required as dependencies
 # Authors
 * Dr. Timothy Wiley, School of Computing Technologies, STEM College, RMIT University.
 * Prof. Santha Sumanasekara, School of Computing Technologies, STEM College, RMIT University.
+* Radiyah Islam
+* Sayed Walif Ali
 
 Copyright RMIT University (c) 2021
 
